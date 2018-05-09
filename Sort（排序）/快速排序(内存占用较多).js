@@ -6,11 +6,18 @@
 
 function quickSort(arr) //传入数组参数,例如[ 55,23,1,28,16,3,-5,99 ]
 {
+
+     /*
+      * 创建len保存数组的长度，每次获取数组的长度都要实时查询不利于性能；
+      * num作为保存取到的中间值；
+      * numValue保存比较参照物；
+      * left、right作为子数组的容器；
+      */
     if (arr.length <= 1) {
         return arr;
     }
 
-    var num = Math.floor(arr.length / 2); //二分查找
+    var num = Math.floor(arr.length / 2); //二分查找,num作为保存取到的中间值；
     var numValue = arr.splice(num, 1);
 
     var left = [];
