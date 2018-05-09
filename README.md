@@ -1,7 +1,10 @@
 # JS-AlgorithmsAndDataStructure
 JS 算法与数据结构
 
-
+* 各种排序一览表
+选择排序、快速排序、希尔排序、堆排序不是稳定的排序算法，
+冒泡排序、插入排序、归并排序和基数排序是稳定的排序算法。
+![image.png](https://upload-images.jianshu.io/upload_images/4340772-6b3f5d8298a1d2b1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ### LICENSE
 
